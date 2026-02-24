@@ -24,7 +24,7 @@ jobs:
 
     # 3) Install Dependencies
     - name: Install dependencies
-      run: npm ci
+      run: npm install
 
     # 5) Run dependency audit
     - name: NPM audit
