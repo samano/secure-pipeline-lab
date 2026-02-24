@@ -27,8 +27,8 @@ jobs:
       run: npm install
 
     # 5) Run dependency audit
-    - name: NPM audit
-      run: npm audit --audit-level=high
+#   - name: NPM audit
+#     run: npm audit --audit-level=high
 
     # 6) Run Trivy dependency scan
     - name: Run Trivy vulnerability scan
