@@ -53,7 +53,6 @@ jobs:
     - name: Package artifact
       run: |
         mkdir -p output
-        find .
         tar -czf output/app.tar.gz node_modules
 
     # 9) Upload artifact
