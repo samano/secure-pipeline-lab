@@ -53,6 +53,7 @@ jobs:
     - name: Package artifact
       run: |
         mkdir -p output
+        find .
         tar -czf output/app.tar.gz
 
     # 9) Upload artifact
